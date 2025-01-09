@@ -12,3 +12,14 @@ JS - Interação
 
 Para adicionar emoji
     $#x e código do emoji
+
+Sites para pegar fotos sem direitos autorais 
+    pexels.com / unsplash.com
+
+GIMP - Programa para editar e redimencionar imagens 
+favicon.io - para criar favicon personalizado
+
+Para arrastar um texto
+    Seleciona o texto e clica segura e arrasta
+
+Quando for adicionar um stilo individual, coloca dentro da propria TAG, caso for em varios parametros, pode usar o modo seletor
