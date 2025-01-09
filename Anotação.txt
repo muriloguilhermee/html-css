@@ -1,0 +1,14 @@
+Dicas úteis 
+
+gustavoguanabara.github.io
+github.gustavoguanabara
+
+documentario
+    youtube/TNGsmPF24go
+
+HTML - Conteúdo
+CSS - Design
+JS - Interação
+
+Para adicionar emoji
+    $#x e código do emoji
