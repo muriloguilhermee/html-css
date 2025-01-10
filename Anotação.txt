@@ -43,3 +43,9 @@ https://www.iana.org/assignments/media-types/media-types.xhtml
 
 
 source media - para dimencionar tamanho de imagens de acordo com tamanho da tela
+
+handbrake - para converter videos
+
+videos hospedados no servidor gera custo adicional
+
+vimeo.com - alternativo para hospedar video
