@@ -16,10 +16,30 @@ Para adicionar emoji
 Sites para pegar fotos sem direitos autorais 
     pexels.com / unsplash.com
 
+Site para pegar emoji
+    https://emojipedia.org/
+
 GIMP - Programa para editar e redimencionar imagens 
-favicon.io - para criar favicon personalizado
+    favicon.io - para criar favicon personalizado
 
 Para arrastar um texto
     Seleciona o texto e clica segura e arrasta
 
 Quando for adicionar um stilo individual, coloca dentro da propria TAG, caso for em varios parametros, pode usar o modo seletor
+
+Em links sempre usar a tag 
+
+"target blank e "rel external", para que quando clicar abrir em uma nova aba
+"target" _sell para abrir na mesma pagina
+rel="next" - proxima pagina
+rel="prev" - pagina anterior 
+rel="nofollow" para não referenciar site terceiros no mecanismo busca
+../ para voltar uma pasta
+
+download="nome do arquivo" usar para quando clicar no link abrir o arquivo invés de baixar
+
+Link para pegar tipos de aplicações para downloads
+https://www.iana.org/assignments/media-types/media-types.xhtml
+
+
+source media - para dimencionar tamanho de imagens de acordo com tamanho da tela
