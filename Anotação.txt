@@ -49,3 +49,5 @@ handbrake - para converter videos
 videos hospedados no servidor gera custo adicional
 
 vimeo.com - alternativo para hospedar video
+
+interno sobrepoe externo e inline sobrepoe interno
