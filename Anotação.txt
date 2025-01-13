@@ -11,7 +11,7 @@ CSS - Design
 JS - Interação
 
 Para adicionar emoji
-    $#x e código do emoji
+    &#x e código do emoji
 
 Sites para pegar fotos sem direitos autorais 
     pexels.com / unsplash.com
