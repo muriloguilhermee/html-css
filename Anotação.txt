@@ -58,3 +58,15 @@ interno sobrepoe externo e inline sobrepoe interno3
 Site Cores
     color.adobe.com
     paletton.com
+
+shorthand fonh
+    font-size -> font-weight -> fonte-size -> font-family
+
+site fontes google
+    fonts.google.com
+    dafont.com
+
+Sites para detectar fontes de imagens 
+    whatfontis.com
+    fontsquirrel.com
+    myfonts.com
