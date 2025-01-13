@@ -1,7 +1,10 @@
 Dicas úteis 
 
+Atalho para comentar código VSCODE 
+    ctrl + ;
+
 gustavoguanabara.github.io
-github.gustavoguanabara
+    github.gustavoguanabara
 
 documentario
     youtube/TNGsmPF24go
@@ -50,4 +53,8 @@ videos hospedados no servidor gera custo adicional
 
 vimeo.com - alternativo para hospedar video
 
-interno sobrepoe externo e inline sobrepoe interno
+interno sobrepoe externo e inline sobrepoe interno3
+
+Site Cores
+    color.adobe.com
+    paletton.com
