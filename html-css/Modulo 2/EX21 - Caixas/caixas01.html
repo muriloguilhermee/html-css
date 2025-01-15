@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {  /* box-level*/
+            height: 300px;
+            width: 300px;
+            background-color: lightskyblue;
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: black; */
+
+            border: 10px solid black; /* essa linha subistitui o bloco acima */
+
+            /* padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+
+            padding: 10px 10px 10px 10px; /* essa linha subistitui o bloco acima (se todos os valores for iguais pode colocar uma unica vez (10px)*/
+
+            /* margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px; */
+
+            margin: 10px 10px 10px 10px; /* essa linha subistitui o bloco acima (se todos os valores for iguais pode colocar uma unica vez (10px) e se colocar 2 valores primeiro é em cima e em baixo, o segundo seria dos lados*/
+
+            margin: auto;
+
+            /* outline-width: 5px;
+            outline-style: dashed;
+            outline-color: blue; */
+
+            outline: 5px dashed blue; /* essa linha subistitui o bloco acima */
+
+        }
+
+        a {
+            border-width: 1px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Páragrafos também são exemplos de box level, maos os <a href="https://evacloudd.com.br/" target="_blank">links são exemplos de caixas inline-level</a>vamos ver como tudo isso funciona</p>
+</body>
+</html>

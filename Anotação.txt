@@ -70,3 +70,19 @@ Sites para detectar fontes de imagens
     whatfontis.com
     fontsquirrel.com
     myfonts.com
+
+    Informações box
+        height - altura
+        width - largura
+        padding - preenchimento interno
+        margin - preenchimento externo
+        outline - contorno - fora do elemento
+        border - dentro do elemento
+
+        Caixas
+            box-level 
+                (ocupa largura total da tela) pula a linha
+                    <div>
+            inline-level 
+                coloca na mesma linha
+                    <span>
