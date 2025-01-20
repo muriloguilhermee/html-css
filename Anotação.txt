@@ -86,3 +86,19 @@ Sites para detectar fontes de imagens
             inline-level 
                 coloca na mesma linha
                     <span>
+
+Site para planejar seu site
+    mockflow.com
+    figman.com
+
+
+    :root {
+    --01: #06073d;
+    --02: #191f57 ;
+    --03: #3c46d9;
+    --04: #9899ee;
+    --05: #c5cbeb;
+}   
+/* Root para armazenar váriaveis var() */
+
+plugin Window Resizer
