@@ -41,21 +41,51 @@ body {
 }
 
 header {
-    background-color: var(--02);
+    background-image: linear-gradient(to bottom,var(--03), var(--02));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header h1 {
     color: white;
     font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 15px black;
 }
 
 header p {
+    font-family: var(--fonte-padrão);
+    font-size: 1.2em;
     color: white;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 15px black;
 }
 
 nav {
     background-color: var(--02);
+    padding: 10px;
     color: white;
+    box-shadow: 0px 7px 9px var(--02);
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 2px 2px 15px black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: var(--05);
+    color: var(--03);
+    border-radius: 10px;
+    transition-duration: 0.5s;
 }
 
 main {
@@ -68,7 +98,6 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-
 }
 
 main h1 {
