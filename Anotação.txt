@@ -103,3 +103,5 @@ Site para planejar seu site
 
 plugin Window Resizer
 
+https://www.qr-code-generator.com/
+    para gerar QRCode de um link
