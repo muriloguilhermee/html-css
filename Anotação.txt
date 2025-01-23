@@ -105,3 +105,8 @@ plugin Window Resizer
 
 https://www.qr-code-generator.com/
     para gerar QRCode de um link
+
+Shorthand - backgroud
+    color > imagee > position > repeat > size > attachment
+
+pode usar left, top, rigth e bottom caso posição for absolute
