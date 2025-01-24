@@ -114,3 +114,5 @@ pode usar left, top, rigth e bottom caso posição for absolute
 letras maiusculas 
     font-variant: small-caps;
     text-transform: uppercase;
+
+Não usar tabela para criar estrutura do site
