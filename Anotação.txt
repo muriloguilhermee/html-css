@@ -116,3 +116,8 @@ letras maiusculas
     text-transform: uppercase;
 
 Não usar tabela para criar estrutura do site
+
+
+thead - Cabeçalho
+tbody - corpo
+tfooter - rodapé

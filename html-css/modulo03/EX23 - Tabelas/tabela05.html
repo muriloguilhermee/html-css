@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        tr.destaque {
+            background-color: lightgreen;
+        }
+        col.cidade {
+            background-color: lightgreen;
+        }
+        col.cgrupo {
+            background-color: lightskyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cgrupo" span="2">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Murillo</td>
+            <td>Masculino</td>
+            <td>33</td>
+            <td>Desenvolvedor</td>
+        </tr>
+        <tr class="destaque">
+            <td >Eloah</td>
+            <td>Feminino</td>
+            <td>18</td>
+            <td>Modelo</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>Masculino</td>
+            <td>22</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>Masculino</td>
+            <td>20</td>
+            <td>Personal</td>
+        </tr>
+        <tr class="destaque">
+            <td>Lauriany</td>
+            <td>Feminino</td>
+            <td>23</td>
+            <td>Engennheira</td>
+        </tr>
+        <tr>
+            <td>Helena</td>
+            <td>Feminino</td>
+            <td>19</td>
+            <td>Nutricionista</td>
+        </tr>
+    </table>
+</body>
+</html>
