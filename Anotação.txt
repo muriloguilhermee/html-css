@@ -121,3 +121,9 @@ Não usar tabela para criar estrutura do site
 thead - Cabeçalho
 tbody - corpo
 tfooter - rodapé
+
+Formularios 
+    Post - dados mais sensiveis, arquivos (mais de 3mil bytes)
+    Get - dados normais (até 3mil bytes)
+
+required - deixa o campo obrigatório em um formulario
