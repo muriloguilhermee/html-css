@@ -10,8 +10,10 @@
     <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
             <legend>Sexo</legend>
-            <input type="checkbox" name="Feminino" id="Feminino"><label for="Feminino">Feminino</label>
-            <input type="checkbox" name="Masculino" id="Masculino"><label for="Masculino">Masculino</label>
+           <input type="radio" name="Sexo" id="Feminino"><label for="Feminino">Feminino</label>
+           <input type="radio" name="Sexo" id="Masculino"><label for="Masculino">Masculino</label>
+           <!-- quando for radio colocar o mesmo nome em "name" para que não selecione os dois, não funciona para chekbox -->
+            <!-- ckecked - caso queira que a opção inicie marcada -->
         </fieldset>
         <fieldset>
             <legend>Esportes Favoritos</legend>
