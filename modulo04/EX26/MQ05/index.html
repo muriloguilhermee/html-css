@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Estilos/style.css">
+    <link rel="stylesheet" href="Estilos/mediaquerie.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção1</a></li>
+                <li><a href="#">Opção2</a></li>
+                <li><a href="#">Opção3</a></li>
+                <li><a href="#">Opção4</a></li>
+                <li><a href="#">Opção5</a></li>
+                <li><a href="#">Opção6</a></li>
+                <li><a href="#">Opção7</a></li>
+                <li><a href="#">Opção8</a></li>
+                <li><a href="#">Opção9</a></li>
+                <li><a href="#">Opção10</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error delectus et ratione minima exercitationem reprehenderit iste nostrum dicta, labore impedit sequi laboriosam atque magni, nam saepe ab ducimus tenetur maxime. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos molestiae natus itaque quaerat, obcaecati optio, iste, voluptates exercitationem corporis repellat reiciendis fuga iure pariatur cupiditate perferendis debitis eos! Quos, ex! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatibus, neque corrupti consectetur deserunt at veniam delectus nam quibusdam, velit, temporibus quia? Officia laboriosam quae dolores natus repellendus ducimus impedit?</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error delectus et ratione minima exercitationem reprehenderit iste nostrum dicta, labore impedit sequi laboriosam atque magni, nam saepe ab ducimus tenetur maxime. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos molestiae natus itaque quaerat, obcaecati optio, iste, voluptates exercitationem corporis repellat reiciendis fuga iure pariatur cupiditate perferendis debitis eos! Quos, ex! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatibus, neque corrupti consectetur deserunt at veniam delectus nam quibusdam, velit, temporibus quia? Officia laboriosam quae dolores natus repellendus ducimus impedit?</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error delectus et ratione minima exercitationem reprehenderit iste nostrum dicta, labore impedit sequi laboriosam atque magni, nam saepe ab ducimus tenetur maxime. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos molestiae natus itaque quaerat, obcaecati optio, iste, voluptates exercitationem corporis repellat reiciendis fuga iure pariatur cupiditate perferendis debitis eos! Quos, ex! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima voluptatibus, neque corrupti consectetur deserunt at veniam delectus nam quibusdam, velit, temporibus quia? Officia laboriosam quae dolores natus repellendus ducimus impedit?</p>
+        </article>
+    </main>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+            itens.style.display = 'block'
+            } else {
+            itens.style.display ='none'
+            }
+        } 
+        
+        function clickMenu(){
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
