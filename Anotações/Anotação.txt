@@ -127,3 +127,15 @@ Formularios
     Get - dados normais (até 3mil bytes)
 
 required - deixa o campo obrigatório em um formulario
+
+
+Flex box 
+
+main-start / main-end
+cross-start / cross-end
+
+main-axis
+cross-axis
+
+justify-content faz o alinhamento referente ao main-axis
+justify-content space-between: 
